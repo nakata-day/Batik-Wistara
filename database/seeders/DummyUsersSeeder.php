@@ -18,19 +18,19 @@ class DummyUsersSeeder extends Seeder
                 'name' => 'Admin Ternakmart',
                 'email' => 'adminternakmart@gmail.com',
                 'password' => bcrypt('adminternakmart'),
-                'role' => 'pemilik',
+                'role' => 'admin',
             ],
             [
                 'name' => 'Manager Ternakmart',
                 'email' => 'managerternakmart@gmail.com',
                 'password' => bcrypt('managerternakmart'),
-                'role' => 'pemilik',
+                'role' => 'admin',
             ],
             [
                 'name' => 'CEO Ternakmart',
                 'email' => 'ceoternakmart@gmail.com',
                 'password' => bcrypt('ceoternakmart'),
-                'role' => 'pemilik',
+                'role' => 'admin',
             ],
         ];
 
